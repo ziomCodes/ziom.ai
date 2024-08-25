@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, 
+    rgba(254,253,248,0) 100%, rgba(202,188,80,1) 100%, 
+    rgba(253,187,45,0.048144257703081283) 100%); 
+    color: #333;
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, 
+        rgba(2,0,36,1) 23%, rgba(9,9,121,1) 
+        46%, rgba(14,52,60,1) 100%);
+    height: 45px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    color: white;
+    padding: 20px;
+}
+
+
+.logo {
+    display: flex;
+    gap: 10px;
+
+    font-size: 20px;
+    color: white;
+}
+
+.logo1 {
+    width: 100px;
+    height: 55px;
+    border-radius: 10%;
+}
+
+
+   
+}
+nav {
+     align-content: flex-end;
+
+}
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a.active {
+    border-bottom: 2px solid #fff;
+}
+
+nav a:hover {
+    background: #22c1c3;
+    border-radius: 10%;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    padding: 10px;
+    color: whitesmoke;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, 
+        rgba(2,0,36,1) 23%, rgba(9,9,121,1) 
+        46%, rgba(14,52,60,1) 100%);
+    height: 50px;
+}
+
+.social-media {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.1s;
+}
+
+.social-media a:hover {
+    color: #2dc322;
+}
+
+footer p {
+    margin:0;
+    font-size: 14px;
+    align-items: center;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    background-color: #7c31af;
+    border-radius: 10px;
+    width: 400px;
+    margin: 150px auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: none;
+    background: #2dc322;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8%;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #555;
+}
+
